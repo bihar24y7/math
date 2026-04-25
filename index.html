@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hira-BCA</title>
+	<link rel="icon" href="3logo.jpg">
+    <style>
+        /* Body ka style */
+        body {
+ font-family: Arial, sans-serif; /* Text ka font */
+            text-align: center; /* Sare text center me dikhaye */
+            background-color: #f5f5f5; /* Background color halka grey */
+            margin: 0; /* Default margin hata diya */
+            padding: 0;
+           }
+
+        /* Header style */
+        .header-a {
+            background-color: green; /* Red background */
+            color: white; /* Text white color */
+            padding: 10px 0; /* Top-bottom padding 5px, left-right 0 */
+            font-size: 24px; /* Text size bada */
+            font-weight: bold; /* Bold text */
+        }
+ .header-c {
+            background-color: white; /* Red background */
+            color: black; /* Text white color */
+            padding: 10px 0; /* Top-bottom padding 5px, left-right 0 */
+            font-size: 40px; /* Text size bada */
+            font-weight: bold; /* Bold text */
+        }
+        /* Button style */
+.semester-btn {
+        display: inline-block;
+        margin: 20px;
+        padding: 15px 25px;
+        background-color: Darkorange;
+        color: black;
+        text-decoration: none;
+        border-radius: 18px;
+        transition: 0.3s;
+ 	font-size: 30px;
+font-weight: bold;
+    }
+       
+.semester-btn1 {
+        display: inline-block;
+        margin: 20px;
+        padding: 15px 25px;
+        background-color: White;
+        color: darkblue;
+        text-decoration: none;
+        border-radius: 18px;
+        transition: 0.3s;
+ 	font-size: 30px;
+font-weight: bold;
+    }
+.semester-btn2 {
+        display: inline-block;
+        margin: 20px;
+        padding: 15px 25px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 18px;
+        transition: 0.3s;
+ 	font-size: 30px;
+font-weight: bold;
+    }
+		.semester-btn3 {
+        display: inline-block;
+        margin: 20px;
+        padding: 15px 25px;
+        background-color: green;
+        color: white;
+        text-decoration: none;
+        border-radius: 18px;
+        transition: 0.3s;
+ 	font-size: 30px;
+font-weight: bold;
+    }
+.red-box {
+        display: inline-block;
+        padding: 20px 40px;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
+line-height: .5;
+
+    }
+.emoji{
+animation:blink 2s infinite;
+}
+@keyfranes blink {
+0%,50%,100% {opacity:1;}
+25%, 75% {opacity: 0;}
+}
+.h2{
+background-image: url("pro.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: rgba(0,0,0,0.8);
+background-blend-mode: darken;
+color: white;
+}
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%); /* half width scroll kare */
+    }
+  }
+  .divdiv{
+    widht:1200px;
+    height:150px;
+   background-color:rgb(255, 255, 255);
+  }
+  div img{
+    width:230px;
+    height:150px;
+  }
+  img{
+    margin-right:50px;
+  }
+    </style>
+</head>
+<body> 
+<a href="BCA Syllabus.pdf"> <marquee><font color = "blue"> Download BCA Syllabus </font>  </marquee></a>
+<br></br>
+	<a href="PPU BCA NEW SYLLABUS.pdf"> <marquee><font color = "blue"> Download BCA New Syllabus </font>  </marquee></a>
+<div class="h2">
+    <div class="header-a"> Welcome BCA Notes Website</div>
+<br></br>
+    <div class ="red-box"> Select Your Year <span class="emoji"> &#128071</span> </div>
+<h1 style="margin: 1px 0;"> Bachelor of Computer Application (BCA) </h1>
+    <a href="part1.html" class="semester-btn">Part 1</a>
+    <a href="part2.html" target="_blank" class="semester-btn">Part 2</a>
+    <a href=""#" onclick="checkPassword()"" target="_blank"class="semester-btn">Part 3  </a>
+
+<script>
+function checkPassword() {
+    const correctPassword = "20232026";   // CHANGE THIS
+    let userPass = prompt("Enter Password:");
+
+    if (userPass === correctPassword) {
+        window.location.href = "https://hira24y7.github.io/part3/";  // target link
+    } else {
+        alert("❌ Wrong Password! Access Denied.");
+    }
+}
+</script>
+<h1 style="margin: 1px 0;"> BCA - PYQ (Previous Year Question) </h1>
+    <a href="pyq.html" class="semester-btn1">Part 1</a>
+    <a href="ugsem-2.html" target="_blank" class="semester-btn1">Part 2</a>
+    <a href=""#" onclick="checkPassword()"" target="_blank"class="semester-btn1">Part 3  </a>
+
+<script>
+function checkPassword() {
+    const correctPassword = "20232026";   // CHANGE THIS
+    let userPass = prompt("Enter Password:");
+
+    if (userPass === correctPassword) {
+        window.location.href = "https://hira24y7.github.io/part3/";  // target link
+    } else {
+        alert("❌ Wrong Password! Access Denied.");
+    }
+}
+</script>
+	<h1 style="margin: 1px 0;"> BCA - Test Series </h1>
+    <a href="test.html" class="semester-btn2">Part 1</a>
+    <a href="ugsem-2.html" target="_blank" class="semester-btn2">Part 2</a>
+    <a href="https://hira24y7.github.io/part3/" target="_blank" class="semester-btn2">Part 3</a>
+	<h1 style="margin: 1px 0;"> BCA -Project </h1>
+    <a href="https://hira24y7.github.io/mnc/" class="semester-btn2">Part 1</a>
+    <a href="ugsem-2.html" target="_blank" class="semester-btn2">Part 2</a>
+    <a href="https://hira24y7.github.io/part3/" target="_blank" class="semester-btn2">Part 3</a>
+	
+<div class ="header-b"> <marquee> HIRA KUMAR - Guest Teacher of BCA Dept. in S.P.M College, Udantpuri,Biharsharif</marquee></div>
+<div class ="header-b"> <marquee direction="left"scrollamount="10"> Designed -- Developed -- Deployed -- maintained -- By Hira Kumar</marquee></div>
+<div class="header-c"> Top MNC (Multi National Corporation) <span class="emoji"> &#128071</span> </div>
+<div class="divdiv">
+  <marquee scrollamount="50">
+  <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-500x281.png" alt="Photo1">
+  <img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo-500x281.png" alt="google">
+  <img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-Logo-500x281.png" alt="fb">
+  <img style ="width:300px; height:80px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/3840px-Microsoft_logo_%282012%29.svg.png" alt="microsoft" >
+  <img style="width:400px;"src="https://www.shutterstock.com/image-vector/galati-romania-april-29-2023-600nw-2295394661.jpg" alt="apple">
+   <img style="width:400px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tata_Consultancy_Services_old_logo.svg/960px-Tata_Consultancy_Services_old_logo.svg.png" alt="tcs">
+   <img style="width:400px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1280px-Infosys_logo.svg.png" alt="infosys">
+   <img src="https://www.3ds.com/fileadmin/depositary/alliances/CRM_SITELOGO/20201200/100000000003019_1wipro-logo-digital-rgb.png" alt="wipro">
+    <img style="width:400px;"src="https://upload.wikimedia.org/wikipedia/commons/8/82/DeloitteNewLogo.png" alt="deloitte">
+  </marquee>
+</div>
+	<div class="header-c"> Top Programming Language <span class="emoji"> &#128071</span> </div>
+	<div class="divdiv">
+     <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-500x281.png" alt="amazon">
+     
+      <img src="" alt="">
+       <img src="" alt="">
+        <img src="" alt="">
+
+  </div>
+	<p> <h4> Contact - 3in1store24y7@gmail.com </h4> </p>
+<img src="https://i.postimg.cc/sXWYrWdd/3in1storelogo.jpg" alt="3in1store" width="50">
+<br></br>
+<img src="https://i.postimg.cc/k4cm8fX6/1736913653232.gif" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/fLw4wmjz/images-(15).jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/RVJYxg51/1766937359492.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/4xgR8D7V/IMG-20251115-175149.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/kMRr7JW1/1751743383471.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/bvVMjWrp/1760121521410.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/YCbD1Z1m/1752378241243.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/gkpg1msR/1755546822809.jpg" alt="3in1store" width="250">	
+<img src="https://i.postimg.cc/4x9b30Wg/1761026374034.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/8CbvJgMN/1761026220796.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/9XDBSzyD/1751024117354.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/CK6qHHPz/1747251325787.jpg" alt="3in1store" width="250">
+<img src="https://i.postimg.cc/4d38L51g/images-(14).jpg" alt="3in1store" width="300">
+	<a href="pure html.html"> pure html web page </a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
